@@ -3,42 +3,37 @@
 ## Overview
 This project analyzes Netflix content using Python, Pandas, and Matplotlib.
 
-## Dataset
-- 8,807 Netflix titles
-- 12 features including title, type, country, release year, rating, and genre
-
-## Tools Used
+## Technologies Used
 - Python
 - Pandas
 - Matplotlib
-- Seaborn
+- Git
+- GitHub
+
+## Dataset Information
+- Total Records: 8,807
+- Total Features: 12
 
 ## Analysis Performed
+- Data Loading
+- Data Exploration
 - Data Cleaning
-- Missing Value Handling
-- Content Type Analysis
-- Country-wise Analysis
-- Genre Analysis
+- Missing Value Analysis
 - Data Visualization
 
-## Key Insights
-- Movies dominate Netflix content.
-- Netflix experienced major content growth between 2017 and 2020.
+## Key Findings
+- Netflix contains more Movies than TV Shows.
+- Content production peaked between 2017 and 2020.
 - Missing values were cleaned before analysis.
+
+## Visualization
+
+![Netflix Chart](chart.png)
 
 ## How to Run
 
-```bash
-pip install pandas matplotlib seaborn
 python analysis.py
-```
 
-## Project Structure
+## Author
 
-Netflix-Data-Analysis/
-│
-├── data/
-│   └── netflix_titles.csv
-│
-├── analysis.py
-└── README.md
+Naveen B
